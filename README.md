@@ -12,6 +12,10 @@ It utilizes the excellent [Faker](https://github.com/joke2k/faker/) library to g
 ***
 
 ## Basic Usage
+run:
+```
+$ docker run -ti yanivomc/fake-log-gen
+```
 
 Generate a single log line to STDOUT
 ```
@@ -58,11 +62,3 @@ optional arguments:
   --sleep SLEEP, -s SLEEP
                         Sleep this long between lines (in seconds)
 ```
-
-
-## Requirements
-* Python 3
-* ```pip install -r requirements.txt```
-
-## License
-This script is released under the [Apache version 2](LICENSE) license.
